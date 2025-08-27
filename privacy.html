@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StatusHub Privacy Policy</title>
+    <!-- We'll use Tailwind CSS for the base styling and add custom CSS for a Material 3 feel -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --md-sys-color-primary: #38a169;
+            --md-sys-color-on-primary: #ffffff;
+            --md-sys-color-surface-container: #f0f4f7;
+            --md-sys-color-on-surface: #1a202c;
+            --md-sys-color-on-surface-variant: #6b7280;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --md-sys-color-primary: #48bb78;
+                --md-sys-color-on-primary: #ffffff;
+                --md-sys-color-surface-container: #1a202c;
+                --md-sys-color-on-surface: #e2e8f0;
+                --md-sys-color-on-surface-variant: #9ca3af;
+            }
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--md-sys-color-surface-container);
+            color: var(--md-sys-color-on-surface);
+            line-height: 1.6;
+        }
+        
+        h1 {
+            font-weight: 700;
+            font-size: 2rem;
+            color: var(--md-sys-color-primary);
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: var(--md-sys-color-on-surface);
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .card {
+            background-color: var(--md-sys-color-surface-container);
+            border-radius: 16px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 1.5rem;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .card {
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container p-4 md:p-8">
+    <div class="card">
+        <h1 class="text-2xl md:text-3xl font-bold mb-2 md:mb-4">Privacy Policy and Legal Disclaimers for StatusHub</h1>
+        <p class="text-sm text-gray-500 mb-6"><strong>Effective Date:</strong> [Current Date, e.g., August 27, 2025]</p>
+        <p>This Privacy Policy and Legal Disclaimers document governs my use of the StatusHub mobile application ("App"). As a solo developer, I, <strong>appsbyanandakumar</strong>, am the sole individual responsible for this App and its policies. This document outlines my policies on the collection, use, and disclosure of information when you use my App, as well as important legal disclaimers and limitations of liability.</p>
+        <p>By using StatusHub, you agree to the collection and use of information and the terms of the disclaimers in this document.</p>
+
+        <h2 class="text-xl md:text-2xl font-bold mt-6">1. Information Collection and Use</h2>
+        <p><strong>I do not collect or store any personal data that can be used to identify you, such as your name, email address, or phone number.</strong></p>
+        <p>The App's core functionalities require access to specific types of data on your device, which is handled exclusively locally. This data is never transmitted to me or any third parties.</p>
+        <ul class="list-disc ml-6">
+            <li><strong>Media Access (Status Saver Feature)</strong>: The Status Saver feature requires access to your device's media storage. Specifically, it needs permission to read files from the WhatsApp and WhatsApp Business status folders (`/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/.Statuses`). This permission is a core requirement for the App's primary purpose: to display and allow you to save statuses.</li>
+            <li><strong>Notification Access (Recover Messages Feature)</strong>: The Recover Messages feature requires access to your device's notifications. I have built a Notification Listener service within the App to capture and save the content of incoming WhatsApp notifications. This data (sender name, message content, and timestamp) is stored locally on your device to enable you to view messages that have been deleted.</li>
+        </ul>
+
+        <h2 class="text-xl md:text-2xl font-bold mt-6">2. Data Handling</h2>
+        <ul class="list-disc ml-6">
+            <li><strong>Local Processing Only</strong>: All data accessed by the App, including media files and captured notifications, is processed and stored <strong>locally on your device only</strong>. No data is uploaded to my servers or any third-party servers.</li>
+            <li><strong>Security</strong>: I take reasonable measures to protect the information stored on your device. However, please be aware that no method of electronic storage is 100% secure.</li>
+            <li><strong>Deletion</strong>: You have full control over the data stored by the App. You can delete saved statuses from your device's gallery, and you can delete captured messages directly from the Recover Messages screen within the App.</li>
+        </ul>
+
+        <h2 class="text-xl md:text-2xl font-bold mt-6">3. Third-Party Services</h2>
+        <p>The App may use third-party services that have their own privacy policies. These services are used to support app functionality and may access certain data for their intended purpose.</p>
+        <ul class="list-disc ml-6">
+            <li><strong>In-App Review</strong>: I use the `in_app_review` package to prompt you for feedback. This service is provided by Google and Apple and does not share any personally identifiable information with me.</li>
+            <li><strong>Sharing</strong>: When you use the share functionality, it interacts with your device's built-in sharing capabilities and third-party apps (like WhatsApp) to share media. I do not control the data handling practices of these third-party applications.</li>
+        </ul>
+
+        <h2 class="text-xl md:text-2xl font-bold mt-6">4. Children's Privacy</h2>
+        <p>The App is not directed to individuals under the age of 13. I do not knowingly collect personally identifiable information from children under 13. If I become aware that I have collected personal data from a child under 13, I will take steps to delete that information.</p>
+
+        <h2 class="text-xl md:text-2xl font-bold mt-6">5. Legal Disclaimers & Limitation of Liability</h2>
+        <ul class="list-disc ml-6">
+            <li><strong>No Affiliation with WhatsApp</strong>: This App is an independent utility and is <strong>NOT affiliated with, associated with, endorsed by, sponsored by, or in any way officially connected with WhatsApp Inc.</strong> or any of its subsidiaries or affiliates. All trademarks, service marks, trade names, and company logos of WhatsApp are the property of their respective owners. My use of the WhatsApp name is solely for descriptive purposes under the principle of nominative fair use to accurately identify the app's functionality and is not intended to imply any partnership or endorsement.</li>
+            <li><strong>User Content and Copyright</strong>: The content displayed in the Status Saver feature is sourced from public directories on your device. The copyright for this content belongs to the original poster. This App is merely a tool for viewing and saving files already present on your device, and it assumes no responsibility for how you use that content. By using this App, you agree to assume full responsibility for your actions. <strong>It is your sole responsibility to obtain the original content creator's permission before saving or sharing their content.</strong> Any unauthorized downloading, sharing, or reposting of content may be a violation of intellectual property rights, and I am not liable for any such infringement.</li>
+            <li><strong>Limitation of Liability</strong>: To the fullest extent permitted by applicable law, in no event will I, my agents, or my affiliates be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to, loss of profits, data, use, goodwill, or other intangible losses, resulting from (a) your access to or use of or inability to access or use the App; (b) any conduct or content of any third party; or (c) any content obtained from the App.</li>
+            <li><strong>Changes in Functionality</strong>: This App's functionality depends on the file storage and notification systems of other applications, such as WhatsApp. I do not guarantee that the App's features will remain functional if the underlying third-party applications change their systems or file structures.</li>
+        </ul>
+
+        <h2 class="text-xl md:text-2xl font-bold mt-6">6. Changes to This Privacy Policy</h2>
+        <p>I may update this Privacy Policy from time to time. I will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+
+        <h2 class="text-xl md:text-2xl font-bold mt-6">7. Contact Me</h2>
+        <p>If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact me at: <strong>appsbyanandakumar@gmail.com</strong>.</p>
+    </div>
+</div>
+
+</body>
+</html>
